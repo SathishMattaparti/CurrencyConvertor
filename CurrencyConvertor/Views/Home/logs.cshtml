@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Logs";
+}
+@model CurrencyConvertor.Models.Logs
+
+@using (Html.BeginForm("Logs", "Home", FormMethod.Post))
+{
+    <h1>@ViewData["Title"]</h1>
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <p>Search the logs</p>
+            <div class="row">
+                <div class="col-4">
+                    <label for="FromDate">From</label>
+                    @Html.EditorFor(m => m.FromDate)
+                </div>
+                <div class="col-4">
+                    <label for="FromDate">From</label>
+                    @Html.EditorFor(m => m.ToDate)
+                </div>
+                <div class="col-4">
+                    <input type="submit" id="btnConvert" />
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-3 bg-primary" >
+                    <label>User Name</label>
+                </div>
+                <div class="col-3 bg-primary">
+                    <label>From Currency</label>
+                </div>
+                <div class="col-3 bg-primary">
+                    <label>To Currency</label>
+                </div>
+                <div class="col-3 bg-primary">
+                    <label>Amount</label>
+                </div>
+            </div>
+            @foreach (var log in Model.AuditLogs)
+            {
+                <div class="row">
+                    <div class="col-3 border-bottom">
+                        @Html.Label(log.UserName)
+                    </div>
+                    <div class="col-3 border-bottom">
+                        @Html.Label(log.FromCurrencyId.ToString())
+                    </div>
+                    <div class="col-3 border-bottom">
+                        @Html.Label(log.ToCurrencyId.ToString())
+                    </div>
+                    <div class="col-3 border-bottom">
+                        @Html.Label(log.Amount.ToString())
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+}

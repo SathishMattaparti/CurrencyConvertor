@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model CurrencyConvertorModel
+
+<script type="text/javascript">
+    $("#ecForm").
+</script>
+
+@using (Html.BeginForm("Convert", "Home", FormMethod.Post, htmlAttributes: new { id="ecForm"}))
+{
+<div class="text-left">
+    <div class="card">
+        <div class="card-header">
+            <h1 class="display-4">Exchange rate convertor</h1>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <label for="valueToConvert">Enter a value to convert </label>
+                @Html.TextBoxFor(m => m.ValueToConvert, "", htmlAttributes: new { id = "valueToConvert", @class = "form-control", placeholder = "Enter a number", required = "required", type="number" })
+            </div>
+            <div class="invalid-feedback">
+                Please provide a valid number.
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="Date">Select date</label><br />
+                    @Html.EditorFor(m => m.Date)
+                </div>
+                <div class="col-4">
+                    <label for="fromCurrencyCode">From currency</label>
+                    @Html.DropDownListFor(x => Model.FromCurrencyCode, new SelectList(Model.FromCurrencyCodes, "Id", "CurrencyCode"), "", htmlAttributes: new { id = "FromCurrencyCodes", @class = "form-control", name = "FromCurrencyCodes", required = "required", placeholder = "Convert from" })
+                </div>
+                <div class="col-4">
+                    <label for="toCurrencyCode">To currency</label>
+                    @Html.DropDownListFor(x => Model.ToCurrencyCode, new SelectList(Model.ToCurrencyCodes, "Id", "CurrencyCode"), "", htmlAttributes: new { id = "ToCurrencyCodes", @class = "form-control", name = "ToCurrencyCodes", required = "required", placeholder = "Convert to" })
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-3 pl-3">
+                    <input type="submit" id="btnConvert" />
+                </div>
+            </div><br />
+            <div class="row">
+                <label for="convertedValue">Converted value </label>
+                @Html.TextBoxFor(m => m.ConvertedValue, "", htmlAttributes: new { id = "convertedValue", @class = "form-control", disabled = "disabled" })
+            </div>
+        </div>
+    </div>
+</div>
+}
