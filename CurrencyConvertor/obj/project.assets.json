@@ -13002,8 +13002,8 @@
     },
     "CurrencyConvertor.Repository/1.0.0": {
       "type": "project",
-      "path": "../../CurrencyConvertor.EF/CurrencyConvertor.Repository.csproj",
-      "msbuildProject": "../../CurrencyConvertor.EF/CurrencyConvertor.Repository.csproj"
+      "path": "../CurrencyConvertor.Repository/CurrencyConvertor.Repository.csproj",
+      "msbuildProject": "../CurrencyConvertor.Repository/CurrencyConvertor.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13023,11 +13023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sathi\\source\\repos\\CurrencyConvertor\\CurrencyConvertor.csproj",
+      "projectUniqueName": "C:\\Users\\sathi\\Source\\Repos\\SathishMattaparti\\CurrencyConvertor\\CurrencyConvertor\\CurrencyConvertor.csproj",
       "projectName": "CurrencyConvertor",
-      "projectPath": "C:\\Users\\sathi\\source\\repos\\CurrencyConvertor\\CurrencyConvertor.csproj",
+      "projectPath": "C:\\Users\\sathi\\Source\\Repos\\SathishMattaparti\\CurrencyConvertor\\CurrencyConvertor\\CurrencyConvertor.csproj",
       "packagesPath": "C:\\Users\\sathi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sathi\\source\\repos\\CurrencyConvertor\\obj\\",
+      "outputPath": "C:\\Users\\sathi\\Source\\Repos\\SathishMattaparti\\CurrencyConvertor\\CurrencyConvertor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13049,11 +13049,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\sathi\\source\\CurrencyConvertor.EF\\CurrencyConvertor.Repository.csproj": {
-              "projectPath": "C:\\Users\\sathi\\source\\CurrencyConvertor.EF\\CurrencyConvertor.Repository.csproj"
+            "C:\\Users\\sathi\\Source\\Repos\\SathishMattaparti\\CurrencyConvertor\\CurrencyConvertor.API\\CurrencyConvertor.API.csproj": {
+              "projectPath": "C:\\Users\\sathi\\Source\\Repos\\SathishMattaparti\\CurrencyConvertor\\CurrencyConvertor.API\\CurrencyConvertor.API.csproj"
             },
-            "C:\\Users\\sathi\\source\\repos\\CurrencyConvertor.API\\CurrencyConvertor.API.csproj": {
-              "projectPath": "C:\\Users\\sathi\\source\\repos\\CurrencyConvertor.API\\CurrencyConvertor.API.csproj"
+            "C:\\Users\\sathi\\Source\\Repos\\SathishMattaparti\\CurrencyConvertor\\CurrencyConvertor.Repository\\CurrencyConvertor.Repository.csproj": {
+              "projectPath": "C:\\Users\\sathi\\Source\\Repos\\SathishMattaparti\\CurrencyConvertor\\CurrencyConvertor.Repository\\CurrencyConvertor.Repository.csproj"
             }
           }
         }

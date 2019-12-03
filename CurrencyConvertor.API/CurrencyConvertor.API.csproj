@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CurrencyConvertor.EF\CurrencyConvertor.Repository.csproj" />
+    <ProjectReference Include="..\CurrencyConvertor.Repository\CurrencyConvertor.Repository.csproj" />
   </ItemGroup>
 
 </Project>

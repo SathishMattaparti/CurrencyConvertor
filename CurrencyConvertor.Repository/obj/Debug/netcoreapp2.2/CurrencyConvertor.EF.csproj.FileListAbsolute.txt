@@ -1,0 +1,8 @@
+C:\Users\sathi\source\CurrencyConvertor.EF\bin\Debug\netcoreapp2.2\CurrencyConvertor.EF.deps.json
+C:\Users\sathi\source\CurrencyConvertor.EF\bin\Debug\netcoreapp2.2\CurrencyConvertor.EF.dll
+C:\Users\sathi\source\CurrencyConvertor.EF\obj\Debug\netcoreapp2.2\CurrencyConvertor.EF.csprojAssemblyReference.cache
+C:\Users\sathi\source\CurrencyConvertor.EF\obj\Debug\netcoreapp2.2\CurrencyConvertor.EF.csproj.CoreCompileInputs.cache
+C:\Users\sathi\source\CurrencyConvertor.EF\obj\Debug\netcoreapp2.2\CurrencyConvertor.EF.AssemblyInfoInputs.cache
+C:\Users\sathi\source\CurrencyConvertor.EF\obj\Debug\netcoreapp2.2\CurrencyConvertor.EF.AssemblyInfo.cs
+C:\Users\sathi\source\CurrencyConvertor.EF\bin\Debug\netcoreapp2.2\CurrencyConvertor.EF.runtimeconfig.json
+C:\Users\sathi\source\CurrencyConvertor.EF\bin\Debug\netcoreapp2.2\CurrencyConvertor.EF.runtimeconfig.dev.json
